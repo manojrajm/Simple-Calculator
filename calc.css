@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.heads
+{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+    color: blue;
+    
+}
+.text-box{
+    width: 650px;
+    height: 85vh;
+    background-color: black;
+    align-items: center;
+    margin-left: 400px;
+    box-shadow:( 10px 10px 50px violet);
+    
+}
+#txt{
+    width: 590px;
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px ;
+    border: 30px white;
+    font-size: 50px;
+    text-align: right;
+    outline: none;
+    align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+button{
+     text-align: center;
+      width: 120px;
+      height: 70px;
+      margin: 0 20px;
+      margin-left: 40px;
+}
+
+.col {
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+button:hover{
+    background-color: slateblue;
+
+}
+#operator{
+    background-color: seagreen;
+}
+#sol{
+    padding: 5px;
+    margin-left: 10px;
+    width: 70px;
+    height: 30px;
+    float: right;
+}
+#answer{
+    width: 240px;
+    height: 75px;
+   
+    background-color: seagreen;
+    
+}

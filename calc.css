@@ -4,6 +4,10 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .heads
 {
@@ -17,9 +21,12 @@ body{
 .text-box{
     width: 650px;
     height: 85vh;
+    padding: 2px;
     background-color: black;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 430px;
     box-shadow:( 10px 10px 50px violet);
     
 }
@@ -34,9 +41,10 @@ body{
     font-size: 50px;
     text-align: right;
     outline: none;
-    align-items: flex-end;
-    word-wrap: break-word;
-    word-break: break-all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 
@@ -46,6 +54,8 @@ button{
       height: 70px;
       margin: 0 20px;
       margin-left: 40px;
+     align-items: center;
+      
 }
 
 .col {
@@ -68,10 +78,51 @@ button:hover{
     height: 30px;
     float: right;
 }
-#answer{
+.answer{
     width: 240px;
     height: 75px;
    
     background-color: seagreen;
     
 }
+
+
+@media(max-width:475px){
+    .text-box{
+        width: 400px;
+        height: 85vh;
+        background-color: black;
+        align-items: center;
+        margin-left: 1px;
+        
+    }
+    button{
+         text-align: center;
+         width: 70px;
+         height: 80px;
+         margin-right:100px;
+      
+   }
+   #txt{
+    width: 370px;
+    height: 80px;
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+.answer{
+    width: 130px;
+    height: 80px;
+
+}
+.heads{
+    font-size: 2px;
+}
+.row{
+    margin-right:10px;
+}
+}
+
+
+
+
